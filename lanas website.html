@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="fav2 (2).png">
+<title>Lana's Nail Studio</title>
+
+<style>
+
+/* ===== BODY ===== */
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(pink\ bg\ 2.png) center / cover no-repeat fixed;
+}
+
+/* ===== NAVBAR (UPGRADED) ===== */
+.navbar{
+  background: url(Pink\ Watercolor\ Background\ Phone\ Wallpaper\ .png)center / cover no-repeat fixed ;
+  padding:15px 0;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar a{
+    color:#fd96ca;
+    text-decoration:none;
+    margin:0 25px;
+    font-weight:bold;
+    font-size:18px;
+    position:relative;
+    padding-bottom:5px;
+text-shadow: 1px 1px 2.5px rgb(104, 99, 99);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+transition: color 0.8s, text-shadow 0.5s;
+}
+
+.navbar a:hover{
+    color:#eb0d7c;
+    text-shadow: 2px 2px 5px black;
+}
+/* animated underline */
+.navbar a::after{
+    content:"";
+    position:absolute;
+    width:0%;
+    height:3px;
+    background:#ff69b4;
+    left:0;
+    bottom:0;
+    transition:0.3s;
+}
+
+.navbar a:hover::after{
+    width:100%;
+}
+
+/* ===== HEADER ===== */
+.header{
+    text-align:center;
+    padding:60px 20px;
+    background:url(BG\ FINAL.png) center / cover no-repeat ;
+}
+
+
+.flowers{
+    font-size:32px;
+}
+
+/* LOGO */
+.logo{
+    width:160px;
+    margin:15px auto;
+    display:block;
+}
+
+/* TITLE */
+.header h1{
+    color:#ff69b4;
+    font-size:45px;
+    margin:10px 0;
+}
+
+/* BUTTON */
+.btn{
+    background:#ff69b4;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#ff4da6;
+    transform:scale(1.05);
+}
+
+/* ===== GALLERY ===== */
+.gallery{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:40px;
+}
+
+.gallery img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+    border:4px solid #ff69b4;
+    transition:0.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.07);
+}
+
+/* ===== SERVICES ===== */
+.services{
+    background:white;
+    padding:50px;
+    text-align:center;
+}
+
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.card{
+    background:#fff0f6;
+    padding:25px;
+    width:220px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.card:hover{
+       transform:scale(1.07); 
+       transition:0.3s;
+}
+.card h3{
+    color:#ff69b4;
+}
+
+/* ===== VIDEO ===== */
+.video-section{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.video-section video{
+    width:80%;
+    max-width:700px;
+    border-radius:15px;
+    border:5px solid #ff69b4;
+}
+
+/* ===== FOOTER ===== */
+.footer{
+    background:#ff69b4;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Gallery</a>
+    <a href="#">Services</a>
+    <a href="#">Video</a>
+    <a href="#">Contact</a>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+    <div class="flowers">🌷🌷🌷</div>
+
+    <!-- LOGO HERE -->
+     <h1 style="font-family:serif;text-shadow:2px 2px 2px rgb(147, 144, 144) ; font-size: 70px;color: #f6077e;"> LANA'S NAIL STUDIO</h1>
+     <img style="width: 420px;" src="LANA LOGO.png" class="logo" alt="Lana's Nail Studio Logo">
+     <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(247, 88, 223);text-shadow:2px 2px 2px #f1e2e8;">Luxury Nails • Barbie Style • Perfect Finish</p>
+    <br>
+    <button class="btn">Book Appointment</button>
+
+    <div class="flowers">🌷🌷🌷</div>
+</div>
+
+<!-- GALLERY -->
+<div class="gallery">
+    <img src="nail 1.webp">
+    <img src="nail 2.jpg">
+    <img src="nail gif.gif">
+    <img src="nail 4.webp">
+</div>
+
+<!-- SERVICES -->
+<div class="services">
+    <h2 style="color:#ff69b4;">Our Services</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Gel Nails</h3>
+            <p>Long-lasting glossy finish.</p>
+            <p><b>$25</b></p>
+        </div>
+
+        <div class="card">
+            <h3>Acrylic Set</h3>
+            <p>Strong and stylish nail designs.</p>
+            <p><b>$35</b></p>
+        </div>
+
+        <div class="card">
+            <h3>Nail Art</h3>
+            <p>Custom creative designs.</p>
+            <p><b>$15+</b></p>
+        </div>
+    </div>
+</div>
+
+<!-- VIDEO -->
+<div class="video-section">
+    <h2 style="color:#fa3095;font-family: cursive;font-weight: bold;">Watch Our Work 💅</h2>
+
+    <video controls style="height: 500px;">
+        <source src="LANA VID.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>© 2025 Lana's Nail Studio | Follow us on Instagram 🌸</p>
+</div>
+
+</body>
+</html>
